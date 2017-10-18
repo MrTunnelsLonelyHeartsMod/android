@@ -25,10 +25,10 @@
            sync-c="true"
            sync-j="4" />
 <!-- Tunnel-->
-<project path="packages/apps/Settings" name="MrTunnelsLonelyHeartsMod/android_packages_apps_Settings" groups="pdk-fs" remote="Tunnel"/>
+<project path="packages/apps/Settings" name="pepperland/android_packages_apps_Settings" groups="pdk-fs" remote="Tunnel"/>
   <!-- AOSP Projects -->
 
-  <project path="build" name="LineageOS/android_build" groups="pdk">
+  <project path="build" name="pepperland/android_build" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
