@@ -19,7 +19,7 @@
            sync-j="4" />
 
   <remote  name="Tunnel"
-           revision="Tunnels-Rock'N'Roll"
+           revision="N"
            remote="github"
            fetch=".."
            sync-c="true"
